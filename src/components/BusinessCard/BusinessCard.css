@@ -1,0 +1,9 @@
+.BusinessCard {
+    height: 90%;
+    width: 100%;
+    padding: 2% 0;
+    background-color: white;
+    border: thin solid grey;
+    border-radius: 1em;
+    display: flex;
+}

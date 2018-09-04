@@ -1,0 +1,16 @@
+.CardList {
+    margin: 2% 5%;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.title, .subtitle {
+    text-align: left;
+    margin: 0;
+    margin-left: 5%;
+}
+
+.subtitle {
+    font-size: 1px;
+}

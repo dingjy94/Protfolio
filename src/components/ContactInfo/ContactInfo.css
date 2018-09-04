@@ -1,0 +1,56 @@
+.ContactInfo {
+    width: 100%;
+    height: 95%;
+    background-color:white;
+    margin-bottom: 5%;
+    border-radius: 3%;
+    padding: 1% 5%;
+    text-align: left;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+.ContactInfo h1 {
+    margin: 0;
+}
+
+.ContactInfo a {
+    color: black;
+    font-weight: bold;
+}
+
+.ContactInfo a:hover {
+    color: grey;
+}
+
+.Social {
+    display: flex;
+}
+
+.Social a {
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    font-weight: bold;
+    margin-right: 2em;
+    border-radius: 1%;
+}
+
+.Social a:hover {
+    color: rgb(160, 159, 159);
+}
+
+.Linkedin {
+    background-color: #0077b5;
+}
+
+.Github {
+    background-color: #4f4f4f;
+}
+
+.Facebook {
+    background-color: #4868ad;
+}

@@ -1,0 +1,27 @@
+.Portfolio {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    position: absolute;
+    display: none;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 70px;
+    transition: opacity 600ms linear 0.3s, visibility 600ms linear 0.3s;;
+}
+
+
+.Close {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+}
+
+.BusinessCard {
+    margin: -5em 5% 5em 5%;
+    height: 600px;
+    width: 90%;
+    display: block;
+    box-sizing: border-box;
+}

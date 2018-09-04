@@ -1,0 +1,47 @@
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.Button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Black {
+    color: white;
+    background-color: black;
+}
+
+.Black:hover {
+    color: gainsboro;
+}
+
+.White, .WhiteBorder {
+    color: black;
+    background-color: white;
+}
+
+.WhiteBorder {
+    border: solid;
+    border-width: thin;
+    border-color: grey;
+}
+
+.White:hover, .WhiteBorder:hover {
+    color: #0366d6;
+}
+
+.Large {
+    padding: 10px 30px;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,46 @@
+.InfoModal {
+    height: 45%;
+    display: flex;
+    padding: 10px 0;
+    overflow: scroll;
+}
+
+.InfoModal ul {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    width: 80%;
+}
+
+.InfoModal p {
+    margin: 0;
+    font-weight: 400;
+    font-size: smaller;
+}
+
+.LogoField {
+    border-right: thin solid grey;
+    width: 20%;
+}
+
+.LogoField i {
+    margin: 8% 0;
+    font-size: medium;
+}
+
+.LogoField p {
+    font-family: 'Pacifico', sans-serif;
+    font-size: medium;
+}
+
+@media (min-width: 1000px) {
+    .LogoField i, .LogoField p {
+        font-size: large;
+    }
+}
+
+@media (max-width: 820px) {
+    .InfoModal p {
+        font-size: x-small;
+    }
+}

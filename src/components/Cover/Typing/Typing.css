@@ -1,0 +1,85 @@
+.Typing {
+  color: white;
+  text-align: left;
+}
+
+.Typing p{
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.Typing p:nth-child(1) {
+  width: 100%;
+  font-size: 20px;
+  animation: type 2s steps(40, end);
+  animation-fill-mode: forwards;
+}
+
+.Typing p:nth-child(2) {
+  width: 100%;
+  opacity: 0;
+  animation: type2 3s steps(80, end);
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+.Typing p:nth-child(3) {
+  width: 100%;
+  opacity: 0;
+  animation: type3 4s steps(80, end);
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+.Typing p:nth-child(4) {
+  width: 100%;
+  opacity: 0;
+  animation: type4 4s steps(80, end);
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 200px;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}

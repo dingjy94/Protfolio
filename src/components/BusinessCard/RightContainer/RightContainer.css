@@ -1,0 +1,20 @@
+.RightContainer {
+    height: 100%;
+    width: 30%;
+}
+
+.RightContainer img {
+    height: 50%;
+    width: 80%;
+    border-radius: 50%;
+    border: solid grey;
+}
+
+.RightContainer h1 {
+    font-family: 'Pacifico', sans-serif;
+}
+
+.RightContainer h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+}

@@ -1,0 +1,36 @@
+.Window {
+  height: 100%;
+  background-color: white;
+  padding: 10px;
+}
+
+.TitleLine, .Information {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.Information {
+  max-height: 85%;
+  overflow: scroll;
+  text-align: left;
+}
+
+.TitleLine {
+  border-bottom: solid grey;
+}
+
+.TitleLine h2 {
+  display: inline-block;
+}
+
+.Link, .Overview {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.Window img {
+  width: 80%;
+  margin-left: 10%;
+}
